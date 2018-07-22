@@ -1,0 +1,22 @@
+{
+  "name": "vinka/deck",
+  "type": "standard",
+  "description": "KG deck test",
+  "homepage": "https://github.com/Vinka/Deck.git",
+  "autoload": {
+    "psr-4": {
+      "Vinka\\Deck\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Vinka\\Deck\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7"
+  },
+  "require": {
+    "php": "~7.1",
+  }
+}
